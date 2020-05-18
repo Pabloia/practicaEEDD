@@ -1,6 +1,6 @@
 package facturas;
 
-public class Facturas implements IFacturas {
+private class Facturas implements IFacturas {
 	
 	public static void main (String [] args)  {
 		
