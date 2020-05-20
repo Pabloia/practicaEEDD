@@ -1,5 +1,6 @@
 enum Estados {
-  Aprobada,
-  Pendiente,
-  Cobrada
-}
+    Aprobada,
+    Pendiente,
+    Cobrada,
+    Anulada
+  }
