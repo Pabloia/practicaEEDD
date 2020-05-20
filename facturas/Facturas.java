@@ -2,7 +2,6 @@ package facturas;
 
 private class Facturas implements IFacturas {
 	
-	//Creacion del main
 	public static void main (String [] args)  {
 		
 		int num;
@@ -20,13 +19,12 @@ private class Facturas implements IFacturas {
 
 	//Metodo implementado
 	public float getTotal() {
-		return 0;
-
+		return base + (base * tipoIva);
 	}
 
 	//Metodo implementado
 	public float getCantidadIva() {
-		return 0;
+		return base * tipoIva;
 	}
 
 	
