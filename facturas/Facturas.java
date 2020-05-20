@@ -19,14 +19,12 @@ private class Facturas implements IFacturas {
 
 
 	public float getTotal() {
-		// TODO Auto-generated method stub
-		return 0;
+		return base + (base * tipoIva);
 	}
 
 
 	public float getCantidadIva() {
-		// TODO Auto-generated method stub
-		return 0;
+		return base * tipoIva;
 	}
 
 	
