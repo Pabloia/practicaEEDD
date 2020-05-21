@@ -19,12 +19,12 @@ private class Facturas implements IFacturas {
 
 	//Metodo implementado
 	public float getTotal() {
-		return base + (base * tipoIva);
+		return base + num + tipoIva;
 	}
 
 	//Metodo implementado
 	public float getCantidadIva() {
-		return base * tipoIva;
+		return base * (num * tipoIva);
 	}
 
 	
